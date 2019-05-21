@@ -5,7 +5,7 @@ Author: Theme Palace
 Author URI: https://themepalace.com
 Description: Selfgraphy Pro is a biography WordPress theme which us designed create a strong online presence. With Selfgraphy Pro, you will be able to find multiple and creative options to showcase your different Skills, Planning and Work Experience. It comes with multiple colors and layouts to support you and your organization's branding. It comes with a wide variety of options so you can modify Layout, Styling, Menus, Breadcrumb, Widgets and much more, directly from theme customizer. This theme is translation ready and major browsers supportive.
 
-Version: 1.0.4
+Version: 1.0.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: selfgraphy
@@ -581,7 +581,7 @@ body {
 }
 
 blockquote {
-    padding: 0 15px;
+    padding: 0 60px 0 40px;
     font-size: 18px;
     line-height: 35px;
     font-weight: 300;
@@ -591,6 +591,21 @@ blockquote {
 blockquote.alignright {
     padding-right: 0;
     margin-bottom: 14px;
+}
+blockquote:before {
+    content: "";
+    background-image: url('assets/uploads/blockquote.png');
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 37px;
+    height: 27px;
+    display: inline-block;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
 }
 
 hr {

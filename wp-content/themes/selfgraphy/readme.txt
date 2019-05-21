@@ -4,8 +4,8 @@ Contributors: themepalace
 Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments, featured-images, footer-widgets, editor-style, right-sidebar, full-width-template, two-columns, three-column, grid-layout, custom-colors, custom-header, custom-logo, featured-image-header, blog, entertainment, education
 
 Requires at least: 4.7
-Tested up to: 5.0.3
-Stable tag: 1.0.4
+Tested up to: 4.9.8
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -33,7 +33,7 @@ Slick Version - 1.6.0
 	license Url : https://github.com/kenwheeler/slick/blob/master/LICENSE
 
 Breadcrumb Trail - 1.0.0
-	Source:  https://github.com/justintadlock/breadcrumb-trail
+	Source: https://github.com/matthieua/WOW
 	License: GNU General Public License, version 2
 	license Url : http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -70,12 +70,6 @@ Unless otherwise specified, all the theme images are created by us and licensed 
 	One Click Demo Import is recommended to extract demo data for initial setup.
 
 == Changelog ==
-
-= 1.0.4 - Jan 15 2019 =
-* Updated Breadcrumb licence url
-
-= 1.0.3 - Dec 20 2018 =
-* Updated Gutenberg Blocks and Editor Style css
 
 = 1.0.2 - Oct 03 2018 =
 * Updated Screenshot

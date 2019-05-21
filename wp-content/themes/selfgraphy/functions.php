@@ -94,65 +94,6 @@ if ( ! function_exists( 'selfgraphy_setup' ) ) :
 		 * specifically font, colors, icons, and column width.
 		 */
 		add_editor_style( array( 'assets/css/editor-style' . selfgraphy_min() . '.css', selfgraphy_fonts_url() ) );
-
-		// Gutenberg support
-		add_theme_support( 'editor-color-palette', array(
-	       	array(
-				'name' => esc_html__( 'Blue', 'selfgraphy' ),
-				'slug' => 'blue',
-				'color' => '#1584ff',
-	       	),
-	       	array(
-	           	'name' => esc_html__( 'Green', 'selfgraphy' ),
-	           	'slug' => 'green',
-	           	'color' => '#07d79c',
-	       	),
-	       	array(
-	           	'name' => esc_html__( 'Orange', 'selfgraphy' ),
-	           	'slug' => 'orange',
-	           	'color' => '#ff8737',
-	       	),
-	       	array(
-	           	'name' => esc_html__( 'Black', 'selfgraphy' ),
-	           	'slug' => 'black',
-	           	'color' => '#2f3633',
-	       	),
-	       	array(
-	           	'name' => esc_html__( 'Grey', 'selfgraphy' ),
-	           	'slug' => 'grey',
-	           	'color' => '#82868b',
-	       	),
-	   	));
-
-		add_theme_support( 'align-wide' );
-		add_theme_support( 'editor-font-sizes', array(
-		   	array(
-		       	'name' => esc_html__( 'small', 'selfgraphy' ),
-		       	'shortName' => esc_html__( 'S', 'selfgraphy' ),
-		       	'size' => 12,
-		       	'slug' => 'small'
-		   	),
-		   	array(
-		       	'name' => esc_html__( 'regular', 'selfgraphy' ),
-		       	'shortName' => esc_html__( 'M', 'selfgraphy' ),
-		       	'size' => 16,
-		       	'slug' => 'regular'
-		   	),
-		   	array(
-		       	'name' => esc_html__( 'larger', 'selfgraphy' ),
-		       	'shortName' => esc_html__( 'L', 'selfgraphy' ),
-		       	'size' => 36,
-		       	'slug' => 'larger'
-		   	),
-		   	array(
-		       	'name' => esc_html__( 'huge', 'selfgraphy' ),
-		       	'shortName' => esc_html__( 'XL', 'selfgraphy' ),
-		       	'size' => 48,
-		       	'slug' => 'huge'
-		   	)
-		));
-		add_theme_support('editor-styles');
-		add_theme_support( 'wp-block-styles' );
 	}
 endif;
 add_action( 'after_setup_theme', 'selfgraphy_setup' );
@@ -306,9 +247,6 @@ function selfgraphy_scripts() {
 
 	wp_enqueue_style( 'magnific-popup', get_template_directory_uri() . '/assets/css/magnific-popup' . selfgraphy_min() . '.css' );
 
-	// blocks
-	wp_enqueue_style( 'selfgraphy-blocks', get_template_directory_uri() . '/assets/css/blocks' . selfgraphy_min() . '.css' );
-
 	wp_enqueue_style( 'selfgraphy-style', get_stylesheet_uri() );
 
 	// Load the html5 shiv.
@@ -356,19 +294,6 @@ function selfgraphy_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'selfgraphy_scripts' );
-
-/**
- * Enqueue editor styles for Gutenberg
- *
- * @since Selfgraphy 1.0.0
- */
-function selfgraphy_block_editor_styles() {
-	// Block styles.
-	wp_enqueue_style( 'selfgraphy-block-editor-style', get_theme_file_uri( '/assets/css/editor-blocks' . selfgraphy_min() . '.css' ) );
-	// Add custom fonts.
-	wp_enqueue_style( 'selfgraphy-fonts', selfgraphy_fonts_url(), array(), null );
-}
-add_action( 'enqueue_block_editor_assets', 'selfgraphy_block_editor_styles' );
 
 /**
  * Implement the Custom Header feature.
