@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ID211210_portofoliozia' );
+define( 'DB_NAME', 'ID211210_portfoliozia' );
 
 /** MySQL database username */
-define( 'DB_USER', 'ID211210_portofoliozia' );
+define( 'DB_USER', 'ID211210_portfoliozia' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', 'Shuzbeta123' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'ID211210_portofoliozia.db.webhosting.be' );
+define( 'DB_HOST', 'ID211210_portfoliozia.db.webhosting.be' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
