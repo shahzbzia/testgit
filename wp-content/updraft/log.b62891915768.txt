@@ -1,0 +1,165 @@
+0000.001 (0) Opened log file at time: Thu, 30 May 2019 23:52:05 +0000 on http://127.0.0.1/WebConceptenP4
+0000.064 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.14 WP: 5.1.1 PHP: 7.2.9 (apache2handler, Windows NT MSI 10.0 build 17763 (Windows 10) i586) MySQL: 5.7.22-22 WPLANG: en_GB Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.9 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30M | 4M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.091 (0) Free space on disk containing Updraft's temporary directory: 52756.6 MB
+0000.182 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.212 (0) Semaphore (fd, wp_options) being initialised
+0000.286 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.358 (0) Set semaphore last lock (fd) time to 2019-05-30 23:52:06
+0000.372 (0) Semaphore lock (fd) complete
+0000.473 (0) Backup run: resumption=0, nonce=b62891915768, file_nonce=b62891915768 begun at=1559260325 (1s ago), job type=backup
+0000.505 (0) Scheduling a resumption (1) after 300 seconds (1559260626) in case this run gets aborted
+0000.570 (0) Checking if we have a zip executable available
+0000.598 (0) Creation of backups of directories: beginning
+0000.646 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.079 (0) Total entities for the zip file: 441 directories, 2131 files (0 skipped as non-modified), 55.9 MB
+0002.164 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.260 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.338 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.429 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.512 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.527 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (23 MB, 2131 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.230 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 600 files added (on-disk size: 16036.9 KB)
+0004.308 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 700 files added (on-disk size: 16036.9 KB)
+0004.379 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 800 files added (on-disk size: 16036.9 KB)
+0004.450 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 900 files added (on-disk size: 16036.9 KB)
+0004.530 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1000 files added (on-disk size: 16036.9 KB)
+0004.547 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.8 MB, 2131 files batched, 501 (1002) added so far); re-opening (prior size: 16036.9 KB)
+0006.008 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1100 files added (on-disk size: 23306.8 KB)
+0006.076 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1200 files added (on-disk size: 23306.8 KB)
+0006.141 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1300 files added (on-disk size: 23306.8 KB)
+0006.209 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1400 files added (on-disk size: 23306.8 KB)
+0006.282 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1500 files added (on-disk size: 23306.8 KB)
+0006.298 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.7 MB, 2131 files batched, 501 (1503) added so far); re-opening (prior size: 23306.8 KB)
+0008.298 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1600 files added (on-disk size: 27520.1 KB)
+0008.368 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1700 files added (on-disk size: 27520.1 KB)
+0008.437 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1800 files added (on-disk size: 27520.1 KB)
+0008.505 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 1900 files added (on-disk size: 27520.1 KB)
+0008.575 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 2000 files added (on-disk size: 27520.1 KB)
+0008.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 2131 files batched, 501 (2004) added so far); re-opening (prior size: 27520.1 KB)
+0009.306 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip.tmp: 2100 files added (on-disk size: 28413.2 KB)
+0010.200 (0) Created plugins zip (0) - 28681.8 KB in 9.5 s (3008.1 KB/s) (sha1: d7ea7298e50649fdfc1514e6ad56b1d4980559f0, sha256: 0ff38f609bf243914c309537c2634b96573cce464cce315af9d29b7ea9ac279f)
+0010.233 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.617 (0) Total entities for the zip file: 128 directories, 563 files (0 skipped as non-modified), 11.2 MB
+0010.695 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.778 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.855 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.928 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0011.026 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0011.039 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.3 MB, 563 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0012.485 (0) Created themes zip (0) - 6382.3 KB in 2.2 s (2857.1 KB/s) (sha1: 7531d5cf907ae723450bd12705b56cec38f9ec63, sha256: 9ad1af447230cf12d8855734e0498cad7152377ac57665a9e3f2d06ed557de97)
+0012.536 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0012.551 (0) Looking for candidates to backup in: C:\Users\shahz\Desktop\Github\opdrachten-shahzbzia\WebConceptenP4/wp-content/uploads
+0012.565 (0) finding files: 2019: adding to list (1)
+0012.580 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0012.800 (0) Total entities for the zip file: 2 directories, 392 files (0 skipped as non-modified), 29.5 MB
+0012.876 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.941 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0013.010 (0) Zip: backup_2019-05-31-0052_Portfolio_b62891915768-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0013.061 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 392 files batched, 362 (362) added so far); re-opening (prior size: 0 KB)
+0013.397 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 23504.9 KB/s)
+0013.425 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.0979108810425, normalised_time=1.0891336711792, max_time=13.410933017731, data points known=1, old_max_bytes=26214400, new_max_bytes=193672955)
+0014.101 (0) Created uploads zip (0) - 30287.9 KB in 1.5 s (20148.7 KB/s) (sha1: 29aeaf6f1aef4686d86d5f9f55e823d7d89ff051, sha256: b5434df94d9112dffef69dcc0b8c8b160e938bb677d2a8424c9b7cdbd09bbac3)
+0014.133 (0) Beginning backup of other directories found in the content directory (index: 0)
+0014.160 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0014.176 (0) Looking for candidates to backup in: C:\Users\shahz\Desktop\Github\opdrachten-shahzbzia\WebConceptenP4/wp-content
+0014.192 (0) finding files: index.php: adding to list (1)
+0014.208 (0) finding files: languages: adding to list (2)
+0014.224 (0) finding files: plugins: skipping: this is the plugins directory
+0014.239 (0) finding files: temp-write-test-5ce6e0616f6e18-70342693: adding to list (3)
+0014.255 (0) finding files: themes: skipping: this is the themes directory
+0014.268 (0) finding files: updraft: skipping: this is the updraft directory
+0014.282 (0) finding files: upgrade: skipping: excluded by options
+0014.299 (0) finding files: uploads: skipping: this is the uploads directory
+0014.387 (0) Total entities for the zip file: 1 directories, 19 files (0 skipped as non-modified), 1.8 MB
+0014.699 (0) Created others zip (0) - 441.9 KB in 0.4 s (1154.5 KB/s) (sha1: 2f3d2a5a558a5cdf042b9e275012b6edb6e9378d, sha256: 6984d143da6b880ae059a4ded6e6a4da8360bdf87f4aa4e22931ef67b8453660)
+0014.765 (0) Saving backup status to database (elements: 8)
+0014.828 (0) Beginning creation of database dump (WordPress DB)
+0014.861 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0019.653 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n SET character_set_client = utf8mb4 ;\nCREATE TAB (truncated - 1022 bytes total)
+0019.798 (0) Binary mysqldump: error (code: 2)
+0019.897 (0) Table wp_options: Total expected rows (approximate): 216
+0020.387 (0) Table wp_options: Total rows added: 218 in 0.46 seconds
+0020.404 (0) Table wp_options: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_options.table.gz - 166.6 KB)
+0020.465 (0) Table wp_users: Total expected rows (approximate): 0
+0020.538 (0) Table wp_users: Total rows added: 1 in 0.06 seconds
+0020.559 (0) Table wp_users: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_users.table.gz - 0.6 KB)
+0020.623 (0) Table wp_usermeta: Total expected rows (approximate): 18
+0020.708 (0) Table wp_usermeta: Total rows added: 23 in 0.07 seconds
+0020.727 (0) Table wp_usermeta: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_usermeta.table.gz - 1.2 KB)
+0020.797 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0020.862 (0) Table wp_commentmeta: Total rows added: 0 in 0.05 seconds
+0020.883 (0) Table wp_commentmeta: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0020.953 (0) Table wp_comments: Total expected rows (approximate): 0
+0021.034 (0) Table wp_comments: Total rows added: 1 in 0.07 seconds
+0021.053 (0) Table wp_comments: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_comments.table.gz - 0.7 KB)
+0021.115 (0) Table wp_links: Total expected rows (approximate): 0
+0021.172 (0) Table wp_links: Total rows added: 0 in 0.04 seconds
+0021.187 (0) Table wp_links: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_links.table.gz - 0.4 KB)
+0021.261 (0) Table wp_postmeta: Total expected rows (approximate): 490
+0021.369 (0) Table wp_postmeta: Total rows added: 546 in 0.09 seconds
+0021.386 (0) Table wp_postmeta: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_postmeta.table.gz - 11.1 KB)
+0021.446 (0) Table wp_posts: Total expected rows (approximate): 208
+0021.583 (0) Table wp_posts: Total rows added: 208 in 0.12 seconds
+0021.598 (0) Table wp_posts: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_posts.table.gz - 36.3 KB)
+0021.676 (0) Table wp_term_relationships: Total expected rows (approximate): 15
+0021.811 (0) Table wp_term_relationships: Total rows added: 14 in 0.11 seconds
+0021.825 (0) Table wp_term_relationships: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0021.889 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0021.963 (0) Table wp_term_taxonomy: Total rows added: 4 in 0.05 seconds
+0021.983 (0) Table wp_term_taxonomy: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0022.051 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0022.108 (0) Table wp_termmeta: Total rows added: 0 in 0.04 seconds
+0022.121 (0) Table wp_termmeta: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_termmeta.table.gz - 0.4 KB)
+0022.203 (0) Table wp_terms: Total expected rows (approximate): 3
+0022.264 (0) Table wp_terms: Total rows added: 4 in 0.05 seconds
+0022.280 (0) Table wp_terms: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_terms.table.gz - 0.4 KB)
+0022.344 (0) Table wp_fblb: Total expected rows (approximate): 0
+0022.413 (0) Table wp_fblb: Total rows added: 1 in 0.06 seconds
+0022.433 (0) Table wp_fblb: finishing file (backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_fblb.table.gz - 0.6 KB)
+0022.492 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_options.table.gz (1/13): adding to final database dump
+0022.547 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_users.table.gz (2/13): adding to final database dump
+0022.565 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_usermeta.table.gz (3/13): adding to final database dump
+0022.579 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_commentmeta.table.gz (4/13): adding to final database dump
+0022.602 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_comments.table.gz (5/13): adding to final database dump
+0022.618 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_links.table.gz (6/13): adding to final database dump
+0022.631 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_postmeta.table.gz (7/13): adding to final database dump
+0022.650 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_posts.table.gz (8/13): adding to final database dump
+0022.671 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_term_relationships.table.gz (9/13): adding to final database dump
+0022.687 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_term_taxonomy.table.gz (10/13): adding to final database dump
+0022.701 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_termmeta.table.gz (11/13): adding to final database dump
+0022.717 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_terms.table.gz (12/13): adding to final database dump
+0022.731 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db-table-wp_fblb.table.gz (13/13): adding to final database dump
+0022.759 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db.gz: finished writing out complete database file (208 KB)
+0022.829 (0) Total database tables backed up: 13 (backup_2019-05-31-0052_Portfolio_b62891915768-db.gz, size: 222160, sha256)
+0022.975 (0) backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0022.991 (0) backup_2019-05-31-0052_Portfolio_b62891915768-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0023.005 (0) backup_2019-05-31-0052_Portfolio_b62891915768-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0023.019 (0) backup_2019-05-31-0052_Portfolio_b62891915768-others.zip: others: This file has not yet been successfully uploaded: will queue
+0023.035 (0) backup_2019-05-31-0052_Portfolio_b62891915768-db.gz: db: This file has not yet been successfully uploaded: will queue
+0023.048 (0) Saving backup history. Total backup size: 64.5 MB
+0023.105 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0023.150 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0023.163 (0) No remote despatch: user chose no remote backup service
+0023.192 (0) Recording as successfully uploaded: backup_2019-05-31-0052_Portfolio_b62891915768-plugins.zip
+0023.236 (0) Recording as successfully uploaded: backup_2019-05-31-0052_Portfolio_b62891915768-themes.zip
+0023.277 (0) Recording as successfully uploaded: backup_2019-05-31-0052_Portfolio_b62891915768-uploads.zip
+0023.318 (0) Recording as successfully uploaded: backup_2019-05-31-0052_Portfolio_b62891915768-others.zip
+0023.362 (0) Recording as successfully uploaded: backup_2019-05-31-0052_Portfolio_b62891915768-db.gz
+0023.471 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0023.499 (0) Number of backup sets in history: 1; groups (db): 1
+0023.516 (0) Examining (for databases) backup set with group_id=0, nonce=b62891915768, datestamp=1559260325 (May 30 2019 23:52:05)
+0023.537 (0) This backup set is the backup set just made, so will not be deleted.
+0023.537 (0) Number of backup sets in history: 1; groups (files): 1
+0023.551 (0) Examining (for files) backup set with nonce=b62891915768, datestamp=1559260325 (May 30 2019 23:52:05)
+0023.551 (0) This backup set is the backup set just made, so will not be deleted.
+0023.567 (0) This backup set is the backup set just made, so will not be deleted.
+0023.567 (0) This backup set is the backup set just made, so will not be deleted.
+0023.567 (0) This backup set is the backup set just made, so will not be deleted.
+0023.567 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0023.581 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0023.642 (0) Resume backup (b62891915768, 0): finish run
+0023.699 (0) Decremented the semaphore (fd) by 1
+0023.727 (0) Semaphore (fd) unlocked
+0023.743 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0023.802 (0) No email will/can be sent - the user has not configured an email address.
+0023.817 (0) The backup apparently succeeded and is now complete
